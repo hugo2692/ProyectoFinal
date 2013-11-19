@@ -1,0 +1,96 @@
+negro = #000
+blanco = #fff
+gris_claro = #ddd
+azul = #0080FF
+body
+	margin 0
+	padding 0
+	font-size 18px
+	nav 
+		ul 
+			margin 0
+			padding 0
+			overflow-x auto 
+			white-space nowrap
+			&::-webkit-scrollbar
+				display none
+			    background-color azul
+			li
+				display inline-block
+				margin 0
+				padding 0.4em 0
+				&:hover
+					background-color rgba(0, 0, 0, 0.1)
+				a
+					text-decoration none
+					padding 0em 0.8em
+					color blanco
+				&:first-child 
+					background-color gris_claro
+					position relative
+					a
+						color azul
+						font-weight bold
+					&:after
+						content ""
+						position absolute
+						top 0
+						left 100%
+						border-top 18px solid transparent
+						border-bottom 18px solid transparent
+						border-left 18px solid gris_claro
+						border-right 18px solid transparent
+
+	#navegador_secundario
+		margin 0
+		padding 0
+		overflow-x auto
+		white-space nowrap
+		background-color gris_claro
+		&::-webkit-scrollbar
+			display none
+		li
+			display inline-block
+			margin 0
+			padding 0.4em 0
+			position relative
+			&:hover
+				background-color rgba(0, 0, 0, 0.1)
+			&:first-child
+				padding-left 1.5em
+				background-color azul
+				a
+					color blanco
+					font-weight bold
+				&:after
+							content ""
+							position absolute
+							top 0
+							left 100%
+							border-top 18px solid transparent
+							border-bottom 18px solid transparent
+							border-left 18px solid azul
+							border-right 18px solid transparent
+				&:before
+							content ""
+							position absolute
+							top 0%
+							left 5%
+							border-top 18px solid gris_claro
+							border-bottom 18px solid transparent
+							border-left 18px solid transparent
+							border-right 18px solid transparent
+			a
+				text-decoration none
+				padding 0em 1em
+				color azul
+
+
+	#slides
+		padding 0
+		margin 0
+		img
+			margin 0
+			padding 0
+			width 100%
+

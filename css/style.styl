@@ -3,10 +3,11 @@ blanco = #fff
 gris_claro = #ddd
 azul = #0080FF
 body
-	margin 0
+	margin 0 auto
 	padding 0
 	font-size 18px
 	font-family 'Della Respira' serif
+	max-width 1024px
 	nav 
 		ul 
 			margin 0
@@ -171,10 +172,27 @@ body
 					p
 						text-align justify
 						font-size 0.9em
-
-
-
-
+@media screen and (min-width: 720px)
+	body
+		aside
+			article
+				margin 4em
+				figure
+					width 120px
+					top -40px
+					right -50px
+				div
+					h3
+						font-size 1.5em
+				&:nth-child(odd)
+					margin 4em
+					figure
+						width 120px
+						left -60px
+						top -40px
+					div
+						h3
+							font-size 1.5em	
 
 
 

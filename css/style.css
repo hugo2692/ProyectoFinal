@@ -1,4 +1,4 @@
-body{margin:0;padding:0;font-size:18px;}
+body{margin:0;padding:0;font-size:18px;font-family:'Della Respira' serif;}
 body nav ul{margin:0;padding:0;overflow-x:auto;white-space:nowrap;background-color:#0080ff;}
 body nav ul::-webkit-scrollbar{display:none}
 body nav ul li{display:inline-block;margin:0;padding:.4em 0;}
@@ -16,5 +16,21 @@ body #navegador_secundario li:first-child a{color:#fff;font-weight:bold}
 body #navegador_secundario li:first-child:after{content:"";position:absolute;top:0;left:100%;border-top:18px solid transparent;border-bottom:18px solid transparent;border-left:18px solid #0080ff;border-right:18px solid transparent}
 body #navegador_secundario li:first-child:before{content:"";position:absolute;top:0%;left:5%;border-top:18px solid #ddd;border-bottom:18px solid transparent;border-left:18px solid transparent;border-right:18px solid transparent}
 body #navegador_secundario li a{text-decoration:none;padding:0 1em;color:#0080ff}
+body footer{background-color:#ddd;text-align:center;}
+body footer ul{margin:0;padding:0;overflow-x:auto;white-space:nowrap;}
+body footer ul li{display:inline-block;list-style:none;padding:.5em;}
+body footer ul li a{color:#000;text-decoration:none;padding:0 .5em}
 body #slides{padding:0;margin:0;}
 body #slides img{margin:0;padding:0;width:100%}
+body aside article{margin:4em 4em 4em 4em;padding:0;min-height:128px;position:relative;}
+body aside article figure{width:120px;margin:0;padding:0;position:absolute;top:-40px;right:-60px;}
+body aside article figure img{width:100%;border-radius:50%;border:4px solid #0080ff;box-shadow:0 0 25px #0080ff}
+body aside article div{box-shadow:0 0 5px #000;border-radius:5px;padding:.5em;background-color:#ddd;}
+body aside article div h3{font-size:1.5em;margin-left:0;margin-top:0;text-transform:uppercase;text-shadow:0 0 2px #0080ff}
+body aside article div p{text-align:justify;font-size:.9em}
+body aside article:nth-child(odd){margin:4em 4em 4em 4em;padding:0;min-height:128px;position:relative;}
+body aside article:nth-child(odd) figure{width:120px;margin:0;padding:0;position:absolute;top:-40px;left:-60px;}
+body aside article:nth-child(odd) figure img{width:100%;border-radius:50%;border:4px solid #0080ff;box-shadow:0 0 25px #0080ff}
+body aside article:nth-child(odd) div{box-shadow:0 0 5px #000;border-radius:5px;padding:.5em;background-color:#ddd;}
+body aside article:nth-child(odd) div h3{font-size:1.5em;margin-left:2.5em;margin-top:0;text-transform:uppercase;text-shadow:0 0 2px #0080ff;text-align:right}
+body aside article:nth-child(odd) div p{text-align:justify;font-size:.9em}
